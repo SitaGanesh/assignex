@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Assignex</title>
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="background-container"></div>
+    <div class="container header">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <i class="bi bi-vector-pen"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-vector-pen" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z" />
+                    <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086z" />
+                </svg>
+                <span class="fs-4">
+                    <div data-aos="fade-in" style="font-weight: bolder; font-size: 30px;">ASSIGNEX UNIVERSITY</div>
+                </span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link home" style="color:black;">  <div data-aos="fade-left">HOME</div></a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link" style="color:black;">  <div data-aos="fade-left">CONTACT</div></a></li>
+                <li class="nav-item">
+                    <div data-aos="fade-left"> <a href="login.html" class="btn btn-dark" aria-current="page">  <div data-aos="fade-left">LOGIN</div></a></div>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <main>
+        <div class="container">
+            <h1 style="color: white; text-align: center; ">
+                <div data-aos="fade-up">ASSIGNEX</div>
+            </h1>
+            <h3 style="color: white; text-align: center">
+                <div data-aos="fade-down">Bridging Education Through Digital Collaboration</div>
+            </h3>
+
+            <p >
+            <div data-aos="fade-up" data-aos-anchor=".other-element" style="color: white; font-weight: bolder; text-align: center">Assignex is an innovative web platform designed to
+                streamline the
+                assignment management process within educational institutions,
+                fostering seamless communication among students, parents, teachers,
+                and administrators. Here's an overview of the key features.</div>
+
+            </p>
+        </div>
+        <br><br>
+        <div class="container login">
+            <div class="row container">
+                
+                <div class="col-lg-3 col-md-6 col-12 student">
+                    <div class="img">
+                        <img src="images/student.png" alt="" width="80px" height="80px"
+                            style="float: left;">
+                    </div>
+                    <title>student-logo</title>
+                    <h2 class="fw-normal"><div data-aos="fade-right" data-aos-anchor=".home">Student</div></h2>
+                    <div data-aos="fade-left"><p><a class="btn btn-dark" href="login.html">LOGIN </a></p></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 professor" >
+
+                    <img src="images/teacher.png" alt="" width="100px" height="100px" style="color:white; float: left;">
+                    <h2 class="fw-normal">  <div data-aos="fade-down">Professor</div></h2>
+                    <div data-aos="fade-up"><p><a class="btn btn-dark" href="professor.html">LOGIN</a></p></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 admin" >
+                    <img src="images/admin.png" alt="" width="80px" height="80px" style="color:white; float: left;">
+                    <h2 class="fw-normal">  <div data-aos="fade-up">Admin</div></h2>
+                    <div data-aos="fade-down"><p><a class="btn btn-dark" href="admin.html">LOGIN</a></p></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 parent" >
+
+                    <img src="images/parent.png" alt="" width="80px" height="80px"
+                        style="color:white; float: left; border-radius:7px solid white;">
+                    <h2 class="fw-normal">  <div data-aos="fade-left">Parent</div></h2>
+                    <div data-aos="fade-right"> <p><a class="btn btn-dark" href="parent.html">LOGIN</a></p></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
